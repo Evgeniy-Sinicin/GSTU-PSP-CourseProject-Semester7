@@ -63,9 +63,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\MatchSettings.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerMotor.cs" />
     <Compile Include="Assets\Scripts\PlayerSetup.cs" />
+    <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\Scripts\PlayerWeapon.cs" />
+    <Compile Include="Assets\_DLNK\Reaper MachineGun\Demoscene\Scripts\Rotate.cs" />
+    <Compile Include="Assets\_DLNK\Reaper MachineGun\Demoscene\Scripts\demo.cs" />
+    <Compile Include="Assets\_DLNK\Reaper MachineGun\Source\Scripts\BulletCartridge.cs" />
+    <Compile Include="Assets\_DLNK\Reaper MachineGun\Source\Scripts\BulletShoot.cs" />
+    <Compile Include="Assets\_DLNK\Reaper MachineGun\Source\Scripts\CartridgeSpawnPoint.cs" />
+    <Compile Include="Assets\_DLNK\Reaper MachineGun\Source\Scripts\ShootSpawnPoint.cs" />
+    <Compile Include="Assets\_DLNK\Reaper MachineGun\Source\Scripts\SpotLight.cs" />
+    <Compile Include="Assets\_DLNK\Reaper MachineGun\Source\Scripts\SpotLightSpawnPoint.cs" />
+    <Compile Include="Assets\_DLNK\Reaper MachineGun\Source\Scripts\WeaponCtrl.cs" />
+    <None Include="Assets\_DLNK\Reaper MachineGun\Demoscene\Resources\Generic Resources\Shaders\SuperShader.shader" />
+    <None Include="Assets\_DLNK\Reaper MachineGun\Demoscene\Resources\Generic Resources\Shaders\DX11TSShader.shader" />
     <None Include="Assets\Mirror\Version.txt" />
     <None Include="Assets\Mirror\Readme.txt" />
     <None Include="Assets\Mirror\Notice.txt" />
@@ -639,6 +655,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{A619EB97-22B8-2F41-B789-7E9A4C6C246A}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Mirror.Weaver.csproj">
       <Project>{38C0CEFA-8783-EBC9-EBF5-E17A638730C5}</Project>
       <Name>Mirror.Weaver</Name>
